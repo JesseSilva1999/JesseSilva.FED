@@ -61,7 +61,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Breakdownschets (week 1)
-<img src="images/Breakdown.Thuisbezorgd.jpg" width="375px" alt="Screenshot van mobile thuisbezorgd">
+<img src="images/Breakdown.Thuisbezorgd.jpeg" width="500px" alt="Breakdown van mobile thuisbezorgd">
 
 
 
