@@ -9,12 +9,18 @@ body {
   font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
       font-weight: 400;
 }
+
+#Begin {background-color: #ff8000;}
+#logo {max-width: 100}
+img {max-width: 400px}
 h1 {
-  color:red;
+  color:white;
 }
 h2 {
-
 }
+  h3 {
+    color:white;
+  }
 p {
 
 }
@@ -64,8 +70,8 @@ form {
     }
 
 /* Section styling */
-header {
-
+header { background-color: #ff8000;
+{max-width: 100px}
 }
   header h1 {
 
@@ -111,7 +117,6 @@ footer {
 section#some-ultra-cool-component {
 
 }
-img {max-width: 400px}
 
 /* Breakpoints */
 @media all and (min-width: 10em) {
