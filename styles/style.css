@@ -11,15 +11,18 @@ body {
 }
 
 #Begin {background-color: #ff8000;}
-#logo {max-width: 100}
+#Logo {max-width: 150px}
 img {max-width: 400px}
 h1 {
+  font-size: 35px;
   color:white;
+  text-align: center;
 }
 h2 {
 }
   h3 {
     color:white;
+    text-align: center;
   }
 p {
 
@@ -50,7 +53,7 @@ button {
 }
 
 /* form styling */
-form {
+form {text-align: center;
 
 }
   fieldset {
@@ -71,8 +74,9 @@ form {
 
 /* Section styling */
 header { background-color: #ff8000;
-{max-width: 100px}
+
 }
+
   header h1 {
 
   }
