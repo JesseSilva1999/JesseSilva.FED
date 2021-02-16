@@ -6,7 +6,8 @@ html {
   font: 100% / 250% "Helvetica";
 }
 body {
-  font-size:1.25em;
+  font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+      font-weight: 400;
 }
 h1 {
   color:red;
@@ -110,10 +111,10 @@ footer {
 section#some-ultra-cool-component {
 
 }
-
+img {max-width: 400px}
 
 /* Breakpoints */
-@media all and (min-width: 30em) {
+@media all and (min-width: 10em) {
 
 }
 
