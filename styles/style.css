@@ -12,13 +12,17 @@ body {
 
 #Begin {background-color: #ff8000;}
 #Logo {max-width: 150px}
+#zowerkt {color: black;
+font-weight:normal;}
+#simpel {color: #ff8000;}
 img {max-width: 400px}
 h1 {
   font-size: 35px;
+  font-weight: bold;
   color:white;
   text-align: center;
 }
-h2 {
+h2 {text-align: center;
 }
   h3 {
     color:white;
