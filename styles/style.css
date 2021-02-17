@@ -1,140 +1,128 @@
 /* Generic styling */
-* {
+* {}
 
-}
 html {
   font: 100% / 250% "Helvetica";
 }
+
 body {
-  font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
-      font-weight: 400;
+  font-family: Takeaway Sans, Avant Garde, Century Gothic, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0px;
 }
 
-#Begin {background-color: #ff8000;}
-#Logo {max-width: 150px}
-#zowerkt {color: black;
-font-weight:normal;}
-#simpel {color: #ff8000;}
-img {max-width: 400px}
+#Begin {
+  background-color: #ff8000;
+}
+
+#Logo {
+  max-width: 150px
+}
+
+#zowerkt {
+  color: black;
+  font-weight: normal;
+}
+
+#simpel {
+  color: #ff8000;
+}
+
+img {
+  max-width: 100%
+}
+
 h1 {
   font-size: 35px;
   font-weight: bold;
-  color:white;
+  color: white;
   text-align: center;
 }
-h2 {text-align: center;
-}
-  h3 {
-    color:white;
-    text-align: center;
-  }
-p {
 
+h2 {
+  text-align: center;
 }
-ul {
 
+h3 {
+  color: white;
+  text-align: center;
 }
-li {
 
-}
-a {
+p {}
 
-}
-a:link {
+ul {}
 
-}
-a:visited {
+li {}
 
-}
-a:hover, a:focus {
+a {}
 
-}
-a:active {
+a:link {}
 
-}
-button {
+a:visited {}
 
-}
+a:hover, a:focus {}
+
+a:active {}
+
+button {}
 
 /* form styling */
-form {text-align: center;
-
+form {
+  text-align: center;
 }
-  fieldset {
 
-  }
-    legend {
+fieldset {}
 
-    }
-    label {
+legend {}
 
-    }
-    input {
+label {}
 
-    }
-    input:invalid {
+input {}
 
-    }
+input:invalid {}
 
 /* Section styling */
-header { background-color: #ff8000;
-
+header {
+  background-color: #ff8000;
 }
 
-  header h1 {
-
-  }
-
-main {
-
-}
-  main button {
-
-  }
-section {
-
-}
-  section header {
-
-  }
-  section h2 {
-
-  }
-article {
-
-}
-  article header {
-
-  }
-  article h3 {
-
-  }
-  article footer {
-
-  }
-
-aside {
-
+​​ #div {
+  background-color: #ff8000;
+  transform: rotate(350deg) translateX(-50px);
+  width: 200%;
+  z-index: 4;
 }
 
-footer {
+header h1 {}
 
-}
+main {}
+
+main button {}
+
+section {}
+
+section header {}
+
+section h2 {}
+
+article {}
+
+article header {}
+
+article h3 {}
+
+article footer {}
+
+aside {}
+
+footer {}
 
 /* Component styling */
-section#some-ultra-cool-component {
-
-}
+section#some-ultra-cool-component {}
 
 /* Breakpoints */
-@media all and (min-width: 10em) {
+@media all and (min-width: 10em) {}
 
-}
+@media all and (min-width: 60em) {}
 
-@media all and (min-width: 60em) {
-
-}
-
-@media all and (min-width: 90em) {
-
-}
+@media all and (min-width: 90em) {}
