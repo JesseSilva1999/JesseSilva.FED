@@ -11,14 +11,33 @@ body {
   margin: 0px;
 }
 
+
+
+
+.dotted {
+  display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+
+
+
 #Begin {
   background-color: #ff8000;
 }
 
-#Logo {
+header img {
   max-width: 150px
 }
 
+li img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 #zowerkt {
   color: black;
   font-weight: normal;
