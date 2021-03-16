@@ -11,25 +11,71 @@ body {
   margin: 0px;
 }
 
-
-
-
-.dotted {
-  display:flex;
-justify-content:center;
-align-items:center;
-
-}
-
-
-
-
-#Begin {
+header {
   background-color: #ff8000;
+  align-items:center;
+  margin-left: 0px;
+  border-left: 10px solid #ff8000;
+  border-top: 10px solid #ff8000;
+  border-bottom: 15px solid #ff8000;
 }
+
+#begin {
+        background-color: #ff8000;
+}
+
+#slider {
+        margin-top: 100;
+}
+form {
+  border-left: 60px solid #ff8000;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 40px;
+
+}
+#text {
+  font-size: 15px;
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 15px;
+}
+#zoek {
+  background-color: #1569C7;
+  color: white;
+  margin: -10px;
+  width: 60px;
+  height: 49px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+/* Image */
+
+ .image{
+        width: 100%;
+        position: absolute;
+        top: 250px;
+        left: 0;
+    }
+
+
+  .overlay{
+       	top: 15px;
+        left: -10px;
+        z-index: 1;
+     	  height:0;
+        width:0;
+      	border-top: 40px solid #ff8000 ;
+      	border-right: 375px solid transparent;
+      	position: relative;
+}
+
 
 header img {
-  max-width: 150px
+  max-width: 150px;
+  margin: 0;
 }
 
 li img {
@@ -38,20 +84,10 @@ li img {
   margin-right: auto;
   width: 50%;
 }
-#zowerkt {
-  color: black;
-  font-weight: normal;
-}
-
-#simpel {
-  color: #ff8000;
-}
-
-img {
-  max-width: 100%
-}
 
 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -59,13 +95,64 @@ h1 {
 }
 
 h2 {
+  font-size: 17px;
+  color: white;
   text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 h3 {
-  color: white;
+  margin-top: 190px;
+  color: black;
+  font-weight: bold;
   text-align: center;
 }
+
+h4 {
+  margin-top: -20px;
+  color: #ff8000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+h6 {
+  color: #ff8000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%
+}
+
+.dotted {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.locatie {
+  margin-right: 90px;
+}
+
+
+
+
+
+
+
+
+
+
 
 p {}
 
@@ -86,9 +173,10 @@ a:active {}
 button {}
 
 /* form styling */
-form {
-  text-align: center;
-}
+
+
+
+
 
 fieldset {}
 
@@ -100,17 +188,15 @@ input {}
 
 input:invalid {}
 
-/* Section styling */
-header {
-  background-color: #ff8000;
-}
 
-​​ #div {
-  background-color: #ff8000;
-  transform: rotate(350deg) translateX(-50px);
-  width: 200%;
-  z-index: 4;
-}
+
+
+
+
+
+
+/* Section styling */
+
 
 header h1 {}
 
