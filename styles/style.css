@@ -1,6 +1,4 @@
 /* Generic styling */
-* {}
-
 html {
   font: 100% / 250% "Helvetica";
 }
@@ -13,7 +11,7 @@ body {
 
 header {
   background-color: #ff8000;
-  align-items:center;
+  align-items: center;
   margin-left: 0px;
   border-left: 10px solid #ff8000;
   border-top: 10px solid #ff8000;
@@ -21,19 +19,20 @@ header {
 }
 
 #begin {
-        background-color: #ff8000;
+  background-color: #ff8000;
 }
 
 #slider {
-        margin-top: 100;
+  margin-top: 100;
 }
+
 form {
   border-left: 60px solid #ff8000;
   margin-top: 10px;
   margin-bottom: 0px;
   height: 40px;
-
 }
+
 #text {
   font-size: 15px;
   width: 180px;
@@ -42,6 +41,7 @@ form {
   border-width: 0px;
   padding-left: 15px;
 }
+
 #zoek {
   background-color: #1569C7;
   color: white;
@@ -51,27 +51,25 @@ form {
   border-radius: 5px;
   border-width: 0px;
 }
+
 /* Image */
-
- .image{
-        width: 100%;
-        position: absolute;
-        top: 250px;
-        left: 0;
-    }
-
-
-  .overlay{
-       	top: 15px;
-        left: -10px;
-        z-index: 1;
-     	  height:0;
-        width:0;
-      	border-top: 40px solid #ff8000 ;
-      	border-right: 375px solid transparent;
-      	position: relative;
+.image {
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  left: 0;
 }
 
+.overlay {
+  top: 15px;
+  left: -10px;
+  z-index: 1;
+  height: 0;
+  width: 0;
+  border-top: 40px solid #ff8000;
+  border-right: 375px solid transparent;
+  position: relative;
+}
 
 header img {
   max-width: 150px;
@@ -83,6 +81,25 @@ li img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+section p {
+  text-align: center;
+}
+
+.adv {
+  color: white;
+  height: 20px;
+  width: 200px;
+  padding: 10px;
+  border: 10px solid #ff8000;
+  border-right: 160px solid #ff8000;
+  border-left: 27px solid #ff8000;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -7px;
 }
 
 h1 {
@@ -124,35 +141,35 @@ h5 {
 }
 
 h6 {
-  color: #ff8000;
+  color: white;
+  background-color: #0a3847;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
-}
-
-img {
-  max-width: 100%
+  font-size: 15px;
+  margin-bottom: -8px;
 }
 
 .dotted {
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .locatie {
-  margin-right: 90px;
+  margin-right: 40px;
+  margin-bottom: -50px;
+  /* help */
 }
 
+footer img {
+  max-width: 375px;
+  margin-bottom: -50px;
+}
 
-
-
-
-
-
-
-
-
+.social {
+  max-width: 375px;
+  margin-top: -130px;
+}
 
 p {}
 
@@ -173,11 +190,6 @@ a:active {}
 button {}
 
 /* form styling */
-
-
-
-
-
 fieldset {}
 
 legend {}
@@ -188,16 +200,7 @@ input {}
 
 input:invalid {}
 
-
-
-
-
-
-
-
 /* Section styling */
-
-
 header h1 {}
 
 main {}
