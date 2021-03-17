@@ -39,6 +39,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 1 (week 3)
 
+-Overbodige ID tags weghalen
+-sections netter ordenen
+-uitleg toevoegen
+-photos opslaan
+-CSS -1index gebruiken om schuine rand te creeren
+
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
@@ -46,21 +52,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
 
 
 ## Breakdownschets (week 1)
@@ -81,3 +72,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s) van de pagina (small screen):**
 
 <img src="images/Foto.thuisbezorgd.jpeg" width="375px" alt="Screenshot van mobile thuisbezorgd">
+<img src="images/pagina2.png" width="375px" alt="Screenshot van mobile thuisbezorgd">
