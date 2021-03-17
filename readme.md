@@ -33,9 +33,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+1e pagina
+-width: 100%; toepassen
+-p in de footer
+-overlay is als enige absolute
 
-
+2e pagina
+-menu's bestaat uit UL's met een active UL
+-section > article > img + p + 3x span gebruiken (zoals aantekeningen)
+-Static menu in de footer
 
 ## Voortgang 1 (week 3)
 
@@ -45,19 +51,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -photos opslaan
 -CSS -1index gebruiken om schuine rand te creeren
 
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
-
 ## Breakdownschets (week 1)
 <img src="images/Breakdown.Thuisbezorgd.png" width="800px" alt="Breakdown van mobile thuisbezorgd">
-
-
 
 
 ## Intake (week 1)
