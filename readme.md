@@ -27,9 +27,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Class names minder & beter verwoorden
+geen pixels, em gebruiken
 
+1e pagina
+-Footer moet bestaan uit losse icoontjes
+-Geen plaatje bij "jouw extraatjes"
 
+2e pagina
+-javascript gebruiken voor restaurants
+-Menu netter maken (SS)
 
 ## Voortgang 2 (week 5)
 
