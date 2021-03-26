@@ -9,9 +9,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two
+2. https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display
+3. https://www.dailysmarty.com/posts/how-to-darken-an-image-with-css
 
 
 
