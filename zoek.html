@@ -8,9 +8,13 @@
   <title>jessesilva.FED</title>
   <link rel="stylesheet" href="styles/stylezoek.css">
   <link rel="author" href="humans.txt">
+  <style>
+  #meer {display: none;}
+  </style>
 </head>
-
 <body>
+
+
   <!-- header -->
 
   <header class="header">
@@ -23,11 +27,13 @@
   <main>
 
     <div class="imagetekst">
-      <img class="image" src="images/pizza_cover_mobile.jpg" alt="" />
+      <img class="pizzaplaatje" src="images/pizza_cover_klein.jpg" alt="" />
       <div class="centered">Bestel bij 108 restaurants</div>
     </div>
 
+
     <!-- Menu -->
+
     <nav class="menu">
       <ul>
         <li><a class="active" href="#pizza">Pizza</a></li>
@@ -39,145 +45,139 @@
 
     <!-- Lijst -->
 
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
-    <ul class="lijst">
-      <li>
-        <section class="lijstimage">
-          <img src="images/ribs.png" alt="plaatje" />
-          <ul>
-            <li></li>
-          </ul>
-        </section>
-        <section class="info">
-          <div class="title">
-            <h3>Ribs & Wings</h3>
-            <p>Spareribs, kip</p>
-          </div>
-            <ul class="time">
-              <li>55min</li>
-              <li>€2,00</li>
-              <li>Min €17,00</li>
-            </ul>
-          </div>
-        </section>
-      </li>
-    </ul>
+      <ul class="lijst">
+        <li>
+              <section class="lijstimage">
+                <img src="images/ribs.png" alt="plaatje" />
+              </section>
+
+          <section class="info">
+              <div class="titel">
+                <h3>Ribs & Wings</h3>
+                <p>Spareribs, kip</p>
+              </div>
+                  <ul class="tijd">
+                    <li>55min</li>
+                    <li>€2,00</li>
+                    <li>Min €17,00</li>
+                  </ul>
+          </section>
+        </li>
+      </ul>
+      <ul class="lijst">
+        <li>
+              <section class="lijstimage">
+                <img src="images/ribs.png" alt="plaatje" />
+              </section>
+
+          <section class="info">
+              <div class="titel">
+                <h3>Ribs & Wings</h3>
+                <p>Spareribs, kip</p>
+              </div>
+                  <ul class="tijd">
+                    <li>55min</li>
+                    <li>€2,00</li>
+                    <li>Min €17,00</li>
+                  </ul>
+          </section>
+        </li>
+      </ul>
+
+    <!-- Bekijk meer -->
+
+      <span id="ingeklapt"></span>
+      <span id="meer">
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/donna.png" alt="plaatje" />
+                </section>
+
+            <section class="info">
+                <div class="titel">
+                  <h3>Pizza DonnaLissa</h3>
+                  <p>Italiaans, spaans</p>
+                </div>
+                    <ul class="tijd">
+                      <li>30min</li>
+                      <li>€1,00</li>
+                      <li>Min €15,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/donna.png" alt="plaatje" />
+                </section>
+
+            <section class="info">
+                <div class="titel">
+                  <h3>Pizza DonnaLissa</h3>
+                  <p>Italiaans, spaans</p>
+                </div>
+                    <ul class="tijd">
+                      <li>30min</li>
+                      <li>€1,00</li>
+                      <li>Min €15,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/donna.png" alt="plaatje" />
+                </section>
+
+            <section class="info">
+                <div class="titel">
+                  <h3>Pizza DonnaLissa</h3>
+                  <p>Italiaans, spaans</p>
+                </div>
+                    <ul class="tijd">
+                      <li>30min</li>
+                      <li>€1,00</li>
+                      <li>Min €15,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/donna.png" alt="plaatje" />
+                </section>
+
+            <section class="info">
+                <div class="titel">
+                  <h3>Pizza DonnaLissa</h3>
+                  <p>Italiaans, spaans</p>
+                </div>
+                    <ul class="tijd">
+                      <li>30min</li>
+                      <li>€1,00</li>
+                      <li>Min €15,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+      </span>
+
+      <button onclick="myFunction()" id="button">Bekijk meer</button>
+
+    <!-- Footer -->
+      </main>
+        <footer>
+        <p> Follow us </p>
+          <img class="social" src="images/facebook.png" alt="facebook" />
+          <img class="social" src="images/twitter.png" alt="twitter" />
+          <img class="social" src="images/youtube.png" alt="youtube" />
+        <footer>
 
 
-  <!-- Footer -->
-  </main>
-  <div class="footer">
-    <h2>FOOTER</h2>
-  </div>
-</body>
-
+    <script src="zoek.js"></script>
+  </body>
 </html>
