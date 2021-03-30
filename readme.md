@@ -15,9 +15,9 @@ https://jessesilva1999.github.io/JesseSilva.FED/
 
 
 ## Eindgesprek (week 7/8)
-
-
-
+.
+.
+.
 ## Voortgang 3 (week 6)
 
 Class names minder & beter verwoorden
