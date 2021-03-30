@@ -168,6 +168,7 @@ h4 {
 .download {
   color: white;
   height: 3%;
+  font-size: .8em;
   width: 40%;
   background-color: black;
   border-radius: 0em 2em 2em 0em;
