@@ -129,13 +129,13 @@ h4 {
   margin-right: auto;
 }
 
-.groot{
+.sliderkop{
   font-weight: 600;
   font-size: 18px;
   margin-bottom: -20px;
 }
 
-.klein{
+.slidertext{
   font-weight: 400;
   font-size: 14px;
 }
@@ -211,6 +211,9 @@ h4 {
         color: blue;
       }
 
+a {
+  text-decoration: none;
+}
 /* Footer */
 
 footer {

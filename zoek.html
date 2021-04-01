@@ -8,9 +8,6 @@
   <title>jessesilva.FED</title>
   <link rel="stylesheet" href="styles/stylezoek.css">
   <link rel="author" href="humans.txt">
-  <style>
-  #meer {display: none;}
-  </style>
 </head>
 <body>
 
@@ -18,11 +15,12 @@
   <!-- header -->
 
   <header class="header">
-    <img src="images/logoklein.png" alt="logo van thuisbezorgd" />
-    <form action="index.html">
-      <input type="text" id="text" name="Text" value="   Wibautstraat 2">
-      <input type="submit" id="zoek" name="Zoek" value="Zoek">
-    </form>
+
+      <img src="images/logoklein.png" alt="logo van thuisbezorgd" />
+      <form action="index.html">
+        <input type="text" id="text" name="Text" value="   Wibautstraat 2">
+        <input type="submit" id="zoek" name="Zoek" value="Zoek">
+      </form>
   </header>
   <main>
 
@@ -45,48 +43,47 @@
 
     <!-- Lijst -->
 
-      <ul class="lijst">
-        <li>
-              <section class="lijstimage">
-                <img src="images/ribs.png" alt="plaatje" />
-              </section>
+    <div id="restaurants">
+      <div id="ingeklapt">
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/ribs.png" alt="plaatje" />
+                </section>
 
-          <section class="info">
-              <div class="titel">
-                <h3>Ribs & Wings</h3>
-                <p>Spareribs, kip</p>
-              </div>
-                  <ul class="tijd">
-                    <li>55min</li>
-                    <li>€2,00</li>
-                    <li>Min €17,00</li>
-                  </ul>
-          </section>
-        </li>
-      </ul>
-      <ul class="lijst">
-        <li>
-              <section class="lijstimage">
-                <img src="images/ribs.png" alt="plaatje" />
-              </section>
+            <section class="info">
+                <div class="titel">
+                  <h3>Ribs & Wings</h3>
+                  <p>Spareribs, kip</p>
+                </div>
+                    <ul class="tijd">
+                      <li>55min</li>
+                      <li>€2,00</li>
+                      <li>Min €17,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+        <ul class="lijst">
+          <li>
+                <section class="lijstimage">
+                  <img src="images/ribs.png" alt="plaatje" />
+                </section>
 
-          <section class="info">
-              <div class="titel">
-                <h3>Ribs & Wings</h3>
-                <p>Spareribs, kip</p>
-              </div>
-                  <ul class="tijd">
-                    <li>55min</li>
-                    <li>€2,00</li>
-                    <li>Min €17,00</li>
-                  </ul>
-          </section>
-        </li>
-      </ul>
-
-    <!-- Bekijk meer -->
-
-      <div id="ingeklapt"></div>
+            <section class="info">
+                <div class="titel">
+                  <h3>Ribs & Wings</h3>
+                  <p>Spareribs, kip</p>
+                </div>
+                    <ul class="tijd">
+                      <li>55min</li>
+                      <li>€2,00</li>
+                      <li>Min €17,00</li>
+                    </ul>
+            </section>
+          </li>
+        </ul>
+      </div>
       <div id="meer">
         <ul class="lijst">
           <li>
@@ -165,17 +162,21 @@
           </li>
         </ul>
       </div>
-
-      <button onclick="myFunction()" id="button">Bekijk meer</button>
+      <button id="button">Bekijk meer</button>
+    </div>
 
     <!-- Footer -->
       </main>
-        <footer>
-        <p> Follow us </p>
-          <img class="social" src="images/facebook.png" alt="facebook" />
-          <img class="social" src="images/twitter.png" alt="twitter" />
-          <img class="social" src="images/youtube.png" alt="youtube" />
-        </footer>
+
+      <footer>
+      <p> Follow us </p>
+      <a href="https://www.facebook.com/thuisbezorgd/">
+      <img class="social" src="images/facebook.png" alt="facebook link" /></a>
+      <a href="https://twitter.com/thuisbezorgd">
+      <img class="social" src="images/twitter.png" alt="twitter link" /></a>
+      <a href="https://www.youtube.com/channel/UCiZc-G6j95MzSle09ZoV_aA">
+      <img class="social" src="images/youtube.png" alt="youtube link" /></a>
+      </footer>
 
 
     <script src="scripts/zoek.js"></script>
