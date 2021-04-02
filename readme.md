@@ -21,7 +21,7 @@ AVV
 -Geen inline CSS/javascript
 -Java op manier CODEPEN #robert
 
-Matig
+Verbeterpunten
 -opzet restaurantlijst
 -mapindeling
 -geen ophoging
