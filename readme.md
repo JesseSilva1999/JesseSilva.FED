@@ -17,14 +17,14 @@ https://jessesilva1999.github.io/JesseSilva.FED/
 ## Eindgesprek (week 7/8)
 
 AVV
--Toegankelijkheid, linkjes toevoegen naar andere pagina's
--Geen inline CSS/javascript
--Java op manier CODEPEN #robert
+-Toegankelijkheid, linkjes toevoegen naar andere pagina's                                                                  
+-Geen inline CSS/javascript                                                     
+-Java op manier CODEPEN #robert                                                 
 
 Verbeterpunten
 -opzet restaurantlijst
--mapindeling
--geen ophoging
+-mapindeling           
+-geen ophoging         
 -bepaalde namen classes
 
 ## Voortgang 3 (week 6)
